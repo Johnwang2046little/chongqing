@@ -112,11 +112,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const title = item.querySelector('h3').textContent;
         const img = item.querySelector('img').src;
         const description = item.querySelector('p').textContent;
+        const kan = item.querySelector('k').textContent;
+        const tip = item.querySelector('t').textContent;
         const details = Array.from(item.querySelectorAll('div.flex.items-center')).map(el => el.textContent.trim()).join('\n');
         
         item.style.cursor = 'pointer';
         item.addEventListener('click', function() {
-            showDetailModal(title, img, description, details);
+            showDetailModal(title, img, description, kan, tip, details);
         });
     });
 
@@ -161,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // 显示详情弹窗
-function showDetailModal(title, imageUrl, description, details) {
+function showDetailModal(title, imageUrl, description, kan, tip, details) {
     // 创建模态框HTML
     const modalHtml = `
         <div id="detailModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
@@ -176,10 +178,18 @@ function showDetailModal(title, imageUrl, description, details) {
                         </button>
                     </div>
                     ${imageUrl ? `<img src="${imageUrl}" alt="${title}" class="w-full h-48 object-cover rounded-lg mb-4">` : ''}
-                    <p class="text-gray-700 mb-4">${description}</p>
+                    <p class="text-gray-700 mb-4">${title} 三方面介绍：</p>
                     <div class="bg-gray-50 p-4 rounded-lg">
-                        <h4 class="font-bold text-cq-red mb-2">详细信息</h4>
-                        <div class="whitespace-pre-line text-gray-600">${details}</div>
+                        <h4 class="font-bold text-cq-red mb-2">特色</h4>
+                        <div class="whitespace-pre-line text-gray-600">${description}</div>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h4 class="font-bold text-cq-red mb-2">看点</h4>
+                        <div class="whitespace-pre-line text-gray-600">${kan}</div>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h4 class="font-bold text-cq-red mb-2">TIPS</h4>
+                        <div class="whitespace-pre-line text-gray-600">${tip}</div>
                     </div>
                      <div class="mt-4 text-center">
                          <a href="ai/${encodeURIComponent(title)}.txt" class="text-blue-500 hover:underline" target="_blank"></a>

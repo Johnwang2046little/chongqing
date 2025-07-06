@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>重庆家庭旅行攻略 - 三大一小轻松游</title>
+    <title>成都&重庆家庭旅行攻略 - 双城慢游</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/styles.css">
     <script>
@@ -46,7 +46,7 @@
         <div class="container mx-auto px-4 py-3">
             <div class="flex justify-between items-center">
                 <div class="flex items-center space-x-3">
-                    <div class="text-2xl font-bold">🏔️ 重庆家庭游</div>
+                    <div class="text-2xl font-bold">🏔️ 成都重庆家庭双城游</div>
                     <span class="text-sm bg-white/20 px-2 py-1 rounded">三大一小专属攻略</span>
                 </div>
                 <div class="hidden md:flex space-x-6 text-sm">
@@ -79,242 +79,122 @@
     <!-- 头部横幅 -->
     <header class="gradient-bg text-white py-12">
         <div class="container mx-auto px-4 text-center">
-            <h1 class="text-4xl md:text-6xl font-bold mb-4">重庆家庭旅行攻略</h1>
-            <p class="text-xl md:text-2xl mb-6">三大一小 · 轻松游 · 5天4晚最佳体验</p>
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">成都 & 重庆家庭旅行攻略</h1>
+            <p class="text-xl md:text-2xl mb-6">慢生活与魔幻山城 · 7天6晚双城体验</p>
             <div class="flex flex-wrap justify-center gap-4 text-sm">
-                <span class="bg-white/20 px-3 py-1 rounded-full">🏨 住宿建议</span>
-                <span class="bg-white/20 px-3 py-1 rounded-full">🍜 美食推荐</span>
-                <span class="bg-white/20 px-3 py-1 rounded-full">🎯 景点详解</span>
-                <span class="bg-white/20 px-3 py-1 rounded-full">💰 预算对比</span>
-                <span class="bg-white/20 px-3 py-1 rounded-full">🚇 交通指南</span>
+                <span class="bg-white/20 px-3 py-1 rounded-full">🏞️ 成都历史文化</span>
+                <span class="bg-white/20 px-3 py-1 rounded-full">🐼 熊猫主题</span>
+                <span class="bg-white/20 px-3 py-1 rounded-full">🌉 重庆魔幻夜景</span>
+                <span class="bg-white/20 px-3 py-1 rounded-full">🍜 双城美食</span>
+                <span class="bg-white/20 px-3 py-1 rounded-full">🚄 高铁串联</span>
             </div>
         </div>
     </header>
 
-    <!-- 天数选择说明 -->
-    <section id="days" class="py-12 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-8 text-cq-gray">
-                <span class="border-b-4 border-cq-red pb-2">🗓️ 最佳旅行天数选择</span>
-            </h2>
-            <div class="grid md:grid-cols-3 gap-6">
-                <!-- 3天方案 -->
-                <div class="plan-card budget p-6 bg-white rounded-lg shadow-lg card-hover">
-                    <div class="text-center mb-4">
-                        <div class="text-2xl font-bold text-cq-green">3天2晚</div>
-                        <div class="text-sm text-gray-600">山城核心精华游</div>
-                    </div>
-                    <div class="space-y-3">
-                        <div class="flex items-center">
-                            <span class="text-green-500">✓</span>
-                            <span class="ml-2 text-sm">高效覆盖核心景点</span>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-500">✓</span>
-                            <span class="ml-2 text-sm">时间短，总花费较低</span>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-red-500">✗</span>
-                            <span class="ml-2 text-sm">行程紧凑，略显奔波</span>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-red-500">✗</span>
-                            <span class="ml-2 text-sm">体验肤浅，选择有限</span>
-                        </div>
-                    </div>
-                    <div class="mt-4 p-3 bg-gray-100 rounded text-sm">
-                        <strong>适合：</strong>时间紧张的家庭
-                    </div>
-                </div>
-
-                <!-- 5天方案（推荐） -->
-                <div class="plan-card recommended p-6 bg-white rounded-lg shadow-xl card-hover transform scale-105">
-                    <div class="text-center mb-4">
-                        <div class="bg-cq-red text-white px-3 py-1 rounded-full text-xs mb-2">官方推荐</div>
-                        <div class="text-2xl font-bold text-cq-red">5天4晚</div>
-                        <div class="text-sm text-gray-600">经典亲子休闲游</div>
-                    </div>
-                    <div class="space-y-3">
-                        <div class="flex items-center">
-                            <span class="text-green-500">✓</span>
-                            <span class="ml-2 text-sm">节奏舒缓，适合亲子</span>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-500">✓</span>
-                            <span class="ml-2 text-sm">内容丰富，体验感好</span>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-500">✓</span>
-                            <span class="ml-2 text-sm">有充足的休息时间</span>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-500">✓</span>
-                            <span class="ml-2 text-sm">性价比最高</span>
-                        </div>
-                    </div>
-                    <div class="mt-4 p-3 bg-red-50 rounded text-sm">
-                        <strong>最适合：</strong>寻求轻松旅行的家庭
-                    </div>
-                </div>
-
-                <!-- 7天方案 -->
-                <div class="plan-card premium p-6 bg-white rounded-lg shadow-lg card-hover">
-                    <div class="text-center mb-4">
-                        <div class="text-2xl font-bold text-amber-600">7天6晚</div>
-                        <div class="text-sm text-gray-600">重庆全景深度游</div>
-                    </div>
-                    <div class="space-y-3">
-                        <div class="flex items-center">
-                            <span class="text-green-500">✓</span>
-                            <span class="ml-2 text-sm">体验全面，极致轻松</span>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-500">✓</span>
-                            <span class="ml-2 text-sm">可游览周边景点</span>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-red-500">✗</span>
-                            <span class="ml-2 text-sm">预算最高</span>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-red-500">✗</span>
-                            <span class="ml-2 text-sm">周边奔波较远</span>
-                        </div>
-                    </div>
-                    <div class="mt-4 p-3 bg-amber-50 rounded text-sm">
-                        <strong>适合：</strong>时间充裕，预算充足的家庭
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 详细行程安排 -->
+    <!-- 成都&重庆行程安排 -->
     <section id="itinerary" class="py-12 bg-gray-100">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-8 text-cq-gray">
-                <span class="border-b-4 border-cq-red pb-2">📅 5天4晚详细行程</span>
+                <span class="border-b-4 border-cq-red pb-2">📅 7天6晚成都&重庆行程</span>
             </h2>
             <div class="max-w-4xl mx-auto">
-                <div class="space-y-6">
-                    <!-- Day 1 -->
-                    <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-cq-red text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">1</div>
-                            <h3 class="text-xl font-bold ml-3 text-cq-gray">第一天：抵达重庆</h3>
-                            <span class="ml-auto text-sm bg-green-100 text-green-800 px-2 py-1 rounded">轻松度 ⭐⭐⭐⭐⭐</span>
-                        </div>
-                        <div class="ml-13 space-y-2">
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">🛬</span>
-                                <span class="ml-2">抵达重庆 → 酒店休整</span>
+                <div class="space-y-8">
+                    <!-- 成都4天 -->
+                    <div>
+                        <h3 class="text-2xl font-bold text-cq-blue mb-4">成都（4天）｜慢生活与历史底蕴</h3>
+                        <div class="space-y-6">
+                            <!-- Day 1 -->
+                            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                                <div class="flex items-center mb-3">
+                                    <div class="bg-cq-blue text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">1</div>
+                                    <h4 class="text-lg font-bold ml-3 text-cq-gray">市区经典打卡</h4>
+                                </div>
+                                <ul class="ml-13 text-gray-700 text-sm space-y-1">
+                                    <li>• 宽窄巷子（清代古街+文艺咖啡馆）</li>
+                                    <li>• 武侯祠（三国文化）+ 锦里（夜游小吃街）</li>
+                                    <li>• 人民公园（喝盖碗茶，体验本地烟火气）</li>
+                                    <li>• 火锅推荐：蜀九香、五里关</li>
+                                </ul>
                             </div>
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">🛍️</span>
-                                <span class="ml-2">解放碑及周边逛吃</span>
+                            <!-- Day 2 -->
+                            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                                <div class="flex items-center mb-3">
+                                    <div class="bg-cq-blue text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">2</div>
+                                    <h4 class="text-lg font-bold ml-3 text-cq-gray">熊猫主题+文艺街巷</h4>
+                                </div>
+                                <ul class="ml-13 text-gray-700 text-sm space-y-1">
+                                    <li>• 大熊猫基地（早7:30开园，看熊猫干饭）</li>
+                                    <li>• 东郊记忆（工业风艺术区）</li>
+                                    <li>• 建设路/奎星楼街（地道小吃：蛋烘糕、糖油果子）</li>
+                                </ul>
                             </div>
-                            <div class="bg-blue-50 p-3 rounded text-sm">
-                                <strong>亲子提示：</strong> 第一天以适应为主，不安排太多景点，让孩子适应新环境
+                            <!-- Day 3 -->
+                            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                                <div class="flex items-center mb-3">
+                                    <div class="bg-cq-blue text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">3</div>
+                                    <h4 class="text-lg font-bold ml-3 text-cq-gray">世界遗产之旅</h4>
+                                </div>
+                                <ul class="ml-13 text-gray-700 text-sm space-y-1">
+                                    <li>• 都江堰（水利工程+古桥漫步）</li>
+                                    <li>• 青城山（前山道教庙宇，后山自然风光）</li>
+                                    <li>• 晚上返回成都，住南门附近方便次日出发</li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-
-                    <!-- Day 2 -->
-                    <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-cq-red text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">2</div>
-                            <h3 class="text-xl font-bold ml-3 text-cq-gray">第二天：科技探索</h3>
-                            <span class="ml-auto text-sm bg-yellow-100 text-yellow-800 px-2 py-1 rounded">亲子度 ⭐⭐⭐⭐⭐</span>
-                        </div>
-                        <div class="ml-13 space-y-2">
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">🔬</span>
-                                <span class="ml-2">重庆科技馆（提前预约！）</span>
-                            </div>
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">😴</span>
-                                <span class="ml-2">下午酒店午休</span>
-                            </div>
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">🌃</span>
-                                <span class="ml-2">洪崖洞夜景</span>
-                            </div>
-                            <div class="bg-blue-50 p-3 rounded text-sm">
-                                <strong>交通：</strong> 6号线江北城站 | <strong>门票：</strong> 免费但需预约
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Day 3 -->
-                    <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-cq-red text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">3</div>
-                            <h3 class="text-xl font-bold ml-3 text-cq-gray">第三天：动物奇遇</h3>
-                            <span class="ml-auto text-sm bg-pink-100 text-pink-800 px-2 py-1 rounded">萌宠度 ⭐⭐⭐⭐⭐</span>
-                        </div>
-                        <div class="ml-13 space-y-2">
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">🐼</span>
-                                <span class="ml-2">重庆动物园（看熊猫）</span>
-                            </div>
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">🚇</span>
-                                <span class="ml-2">李子坝"穿楼"轻轨</span>
-                            </div>
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">🎨</span>
-                                <span class="ml-2">鹅岭二厂文创公园</span>
-                            </div>
-                            <div class="bg-blue-50 p-3 rounded text-sm">
-                                <strong>交通：</strong> 2号线动物园站 | <strong>门票：</strong> 25元/成人
+                            <!-- Day 4 -->
+                            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                                <div class="flex items-center mb-3">
+                                    <div class="bg-cq-blue text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">4</div>
+                                    <h4 class="text-lg font-bold ml-3 text-cq-gray">文化深度体验</h4>
+                                </div>
+                                <ul class="ml-13 text-gray-700 text-sm space-y-1">
+                                    <li>• 金沙遗址博物馆（太阳神鸟文物）</li>
+                                    <li>• 杜甫草堂（诗意园林）</li>
+                                    <li>• 天府艺术公园（现代建筑+展览）</li>
+                                    <li>• 傍晚乘高铁至重庆（约1.5小时）</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Day 4 -->
-                    <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-cq-red text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">4</div>
-                            <h3 class="text-xl font-bold ml-3 text-cq-gray">第四天：古镇漫步</h3>
-                            <span class="ml-auto text-sm bg-amber-100 text-amber-800 px-2 py-1 rounded">文化度 ⭐⭐⭐⭐</span>
-                        </div>
-                        <div class="ml-13 space-y-2">
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">🏮</span>
-                                <span class="ml-2">磁器口古镇（可逛半天）</span>
+                    <!-- 重庆3天 -->
+                    <div>
+                        <h3 class="text-2xl font-bold text-cq-red mb-4">重庆（3天）｜魔幻山城与江湖气息</h3>
+                        <div class="space-y-6">
+                            <!-- Day 5 -->
+                            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                                <div class="flex items-center mb-3">
+                                    <div class="bg-cq-red text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">5</div>
+                                    <h4 class="text-lg font-bold ml-3 text-cq-gray">地标景观+夜景</h4>
+                                </div>
+                                <ul class="ml-13 text-gray-700 text-sm space-y-1">
+                                    <li>• 解放碑（重庆中心地标）</li>
+                                    <li>• 长江索道（空中俯瞰两江）</li>
+                                    <li>• 洪崖洞（夜晚亮灯宛如千与千寻）</li>
+                                    <li>• 火锅推荐：仪表厂、田棒棒</li>
+                                </ul>
                             </div>
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">😴</span>
-                                <span class="ml-2">下午自由活动/酒店休息</span>
+                            <!-- Day 6 -->
+                            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                                <div class="flex items-center mb-3">
+                                    <div class="bg-cq-red text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">6</div>
+                                    <h4 class="text-lg font-bold ml-3 text-cq-gray">山城徒步+文艺探索</h4>
+                                </div>
+                                <ul class="ml-13 text-gray-700 text-sm space-y-1">
+                                    <li>• 山城步道（崖壁上的悬空栈道）</li>
+                                    <li>• 李子坝轻轨穿楼（打卡“轻轨天上飞”）</li>
+                                    <li>• 鹅岭二厂（文创园拍工业风大片）</li>
+                                    <li>• 龙门浩老街（观江景+网红机位）</li>
+                                </ul>
                             </div>
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">🚠</span>
-                                <span class="ml-2">长江索道体验（避开高峰）</span>
-                            </div>
-                            <div class="bg-blue-50 p-3 rounded text-sm">
-                                <strong>交通：</strong> 1号线磁器口站 | <strong>索道：</strong> 20元/单程
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Day 5 -->
-                    <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-cq-red text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">5</div>
-                            <h3 class="text-xl font-bold ml-3 text-cq-gray">第五天：温馨告别</h3>
-                            <span class="ml-auto text-sm bg-green-100 text-green-800 px-2 py-1 rounded">轻松度 ⭐⭐⭐⭐⭐</span>
-                        </div>
-                        <div class="ml-13 space-y-2">
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">🌅</span>
-                                <span class="ml-2">上午自然醒，整理行李</span>
-                            </div>
-                            <div class="flex items-center text-gray-700">
-                                <span class="text-cq-red">✈️</span>
-                                <span class="ml-2">前往机场/火车站返程</span>
-                            </div>
-                            <div class="bg-blue-50 p-3 rounded text-sm">
-                                <strong>温馨提示：</strong> 可在机场购买一些重庆特产作为纪念
+                            <!-- Day 7 -->
+                            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                                <div class="flex items-center mb-3">
+                                    <div class="bg-cq-red text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">7</div>
+                                    <h4 class="text-lg font-bold ml-3 text-cq-gray">自然奇观或复古怀旧</h4>
+                                </div>
+                                <ul class="ml-13 text-gray-700 text-sm space-y-1">
+                                    <li>• 方案A：武隆一日游（天坑地缝+天生三桥，喀斯特地貌）</li>
+                                    <li>• 方案B：市区深度游（湖广会馆、白象居、南滨路夜景）</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -323,611 +203,449 @@
         </div>
     </section>
 
-    <!-- 核心景点介绍 -->
+    <!-- 景点介绍（成都+重庆） -->
     <section id="attractions" class="py-12 bg-white print-page-break">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-8 text-cq-gray">
                 <span class="border-b-4 border-cq-red pb-2">🎯 核心景点详解</span>
             </h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- 重庆科技馆 -->
+                <!-- 成都景点 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
                     <div class="h-48 overflow-hidden">
-                        <img src="images/science_museum.png" alt="重庆科技馆" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        <img src="images/panda_base.jpg" alt="大熊猫基地" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                     </div>
                     <div class="p-6">
-                        <div class="flex items-center justify-between mb-2">
-                            <h3 class="text-xl font-bold text-cq-gray">重庆科技馆</h3>
-                            <span class="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">亲子 ⭐⭐⭐⭐⭐</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-3">西部地区最大的综合性科技馆，互动性极强，儿童科学乐园是亮点</p>
-                        <div class="space-y-2 text-sm">
-                            <div class="flex items-center">
-                                <span class="text-blue-500">💰</span>
-                                <span class="ml-2">免费（需预约）</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-blue-500">🚇</span>
-                                <span class="ml-2">6号线江北城站</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-blue-500">⏰</span>
-                                <span class="ml-2">建议时长：3-4小时</span>
-                            </div>
-                        </div>
-                        <div class="mt-3 p-2 bg-yellow-50 rounded text-xs">
-                            <strong>注意：</strong>提前7天预约，周末人多
-                        </div>
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">大熊猫繁育研究基地</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>全球最大熊猫科研保护机构，可近距离观察成年熊猫及幼崽。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>月亮产房（夏季新生幼崽）、熊猫太阳产房、小熊猫散养区。</k>
+                        <t class="text-gray-600 text-sm"><strong>建议：</strong>7:30开园，熊猫活跃在早晨，穿轻便鞋，游览3-4小时。</t>
                     </div>
                 </div>
-
-                <!-- 重庆动物园 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
                     <div class="h-48 overflow-hidden">
-                        <img src="images/chongqing_panda.jpg" alt="重庆动物园熊猫" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        <img src="images/kuanzhai.jpg" alt="宽窄巷子" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                     </div>
                     <div class="p-6">
-                        <div class="flex items-center justify-between mb-2">
-                            <h3 class="text-xl font-bold text-cq-gray">重庆动物园</h3>
-                            <span class="text-sm bg-green-100 text-green-800 px-2 py-1 rounded">萌宠 ⭐⭐⭐⭐⭐</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-3">国内规模较大的城市动物园，以熊猫闻名，还有儿童游乐区</p>
-                        <div class="space-y-2 text-sm">
-                            <div class="flex items-center">
-                                <span class="text-green-500">💰</span>
-                                <span class="ml-2">25元/成人（儿童优惠）</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-green-500">🚇</span>
-                                <span class="ml-2">2号线动物园站</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-green-500">⏰</span>
-                                <span class="ml-2">建议时长：3-4小时</span>
-                            </div>
-                        </div>
-                        <div class="mt-3 p-2 bg-yellow-50 rounded text-xs">
-                            <strong>提示：</strong>可乘坐观光电瓶车代步
-                        </div>
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">宽窄巷子</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>清代满城遗存，成都“最文艺”的百年老街。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>宽巷子（老院落茶馆）、窄巷子（设计师店铺）、井巷子（市井烟火）。</k>
+                        <t class="text-gray-600 text-sm"><strong>建议：</strong>避开节假日人潮，推荐“三联韬奋书店”和“%Arabica咖啡”。</t>
                     </div>
                 </div>
-
-                <!-- 洪崖洞 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
                     <div class="h-48 overflow-hidden">
-                        <img src="images/hongyadong_night.jpg" alt="洪崖洞夜景" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        <img src="images/qingcheng_mountain.jpg" alt="都江堰+青城山" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                     </div>
                     <div class="p-6">
-                        <div class="flex items-center justify-between mb-2">
-                            <h3 class="text-xl font-bold text-cq-gray">洪崖洞</h3>
-                            <span class="text-sm bg-red-100 text-red-800 px-2 py-1 rounded">夜景 ⭐⭐⭐⭐⭐</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-3">现实版"千与千寻"场景，夜晚灯火辉煌，巴渝传统建筑特色</p>
-                        <div class="space-y-2 text-sm">
-                            <div class="flex items-center">
-                                <span class="text-red-500">💰</span>
-                                <span class="ml-2">免费</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-red-500">🚇</span>
-                                <span class="ml-2">1/6号线小什字站</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-red-500">⏰</span>
-                                <span class="ml-2">建议时长：2-3小时</span>
-                            </div>
-                        </div>
-                        <div class="mt-3 p-2 bg-yellow-50 rounded text-xs">
-                            <strong>最佳时间：</strong>18:00-22:00夜景
-                        </div>
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">都江堰+青城山</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>世界文化遗产，李冰父子治水杰作+道教发源地。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>都江堰：鱼嘴分水堤、飞沙堰、宝瓶口。青城山：天师洞、上清宫、月城湖。</k>
+                        <t class="text-gray-600 text-sm"><strong>建议：</strong>成都高铁0.5小时直达，两地联游需1天，青城山前山看人文，后山徒步。</t>
                     </div>
                 </div>
-
-                <!-- 磁器口古镇 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
                     <div class="h-48 overflow-hidden">
-                        <img src="images/ciqikou_ancient_town.jpg" alt="磁器口古镇" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        <img src="images/wuhouci.jpg" alt="武侯祠+锦里" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                     </div>
                     <div class="p-6">
-                        <div class="flex items-center justify-between mb-2">
-                            <h3 class="text-xl font-bold text-cq-gray">磁器口古镇</h3>
-                            <span class="text-sm bg-amber-100 text-amber-800 px-2 py-1 rounded">文化 ⭐⭐⭐⭐</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-3">千年古镇，重庆的缩影，码头文化浓厚，特色小吃众多</p>
-                        <div class="space-y-2 text-sm">
-                            <div class="flex items-center">
-                                <span class="text-amber-500">💰</span>
-                                <span class="ml-2">免费</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-amber-500">🚇</span>
-                                <span class="ml-2">1号线磁器口站</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-amber-500">⏰</span>
-                                <span class="ml-2">建议时长：2-3小时</span>
-                            </div>
-                        </div>
-                        <div class="mt-3 p-2 bg-yellow-50 rounded text-xs">
-                            <strong>建议：</strong>往小巷子走，避开主街人群
-                        </div>
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">武侯祠+锦里</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>三国文化朝圣地+明清风格夜市街。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>武侯祠：刘备诸葛亮合祀祠、红墙竹林光影。锦里：茶楼、皮影戏、三大炮小吃。</k>
+                        <t class="text-gray-600 text-sm"><strong>建议：</strong>武侯祠拍照选早晨或闭馆前，锦里推荐夜游。</t>
                     </div>
                 </div>
-
-                <!-- 长江索道 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/dufu.jpg" alt="杜甫草堂" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">杜甫草堂</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>唐代诗人杜甫流寓成都故居，“茅屋为秋风所破歌”诞生地。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>工部祠、草堂书屋、浣花溪畔水榭。</k>
+                        <t class="text-gray-600 text-sm"><strong>建议：</strong>结合川西园林风格，雨天游览更添诗意。</t>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/jinsha.jpg" alt="金沙遗址博物馆" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">金沙遗址博物馆</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>古蜀国都城遗址，“太阳神鸟金饰”出土地。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>遗迹馆（考古现场）、陈列馆（商周青铜器）。</k>
+                        <t class="text-gray-600 text-sm"><strong>贴士：</strong>与三星堆文化一脉相承，适合历史爱好者。</t>
+                    </div>
+                </div>
+                <!-- 重庆景点 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/hongyadong_night.jpg" alt="洪崖洞" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">洪崖洞</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>11层叠崖吊脚楼，现实版《千与千寻》汤屋。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>1楼滨江路拍全景，千厮门大桥机位。内部民俗商店略商业化，不建议购物。</k>
+                        <t class="text-gray-600 text-sm"><strong>建议：</strong>19:30亮灯后最佳，避开入口人流，从戴家巷步道下行。</t>
+                    </div>
+                </div>
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
                     <div class="h-48 overflow-hidden">
                         <img src="images/changjiang_cable.jpg" alt="长江索道" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                     </div>
                     <div class="p-6">
-                        <div class="flex items-center justify-between mb-2">
-                            <h3 class="text-xl font-bold text-cq-gray">长江索道</h3>
-                            <span class="text-sm bg-cyan-100 text-cyan-800 px-2 py-1 rounded">体验 ⭐⭐⭐⭐⭐</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-3">万里长江第一条空中走廊，独特的过江体验，空中俯瞰城市风光</p>
-                        <div class="space-y-2 text-sm">
-                            <div class="flex items-center">
-                                <span class="text-cyan-500">💰</span>
-                                <span class="ml-2">20元/单程，30元/往返</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-cyan-500">🚇</span>
-                                <span class="ml-2">小什字站/上新街站</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-cyan-500">⏰</span>
-                                <span class="ml-2">乘坐5分钟（排队较久）</span>
-                            </div>
-                        </div>
-                        <div class="mt-3 p-2 bg-yellow-50 rounded text-xs">
-                            <strong>避峰：</strong>避免节假日和傍晚高峰
-                        </div>
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">长江索道</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>“空中公交车”横跨长江，俯瞰渝中半岛。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>南站（上新街）人少，北站（新华路）经典视角。</k>
+                        <t class="text-gray-600 text-sm"><strong>贴士：</strong>单程即可，往返景色重复，选靠窗位置。</t>
                     </div>
                 </div>
-
-                <!-- 李子坝轻轨 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/jiefangbei.jpg" alt="解放碑+八一好吃街" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">解放碑+八一好吃街</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>抗战胜利纪念碑+重庆小吃宇宙中心。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>解放碑：重庆“零点”地标，周边商场林立。八一街：酸辣粉、山城汤圆、鬼包子。</k>
+                        <t class="text-gray-600 text-sm"><strong>建议：</strong>步行10分钟到洪崖洞，顺路打卡。</t>
+                    </div>
+                </div>
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
                     <div class="h-48 overflow-hidden">
                         <img src="images/liziba_train.png" alt="李子坝轻轨穿楼" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                     </div>
                     <div class="p-6">
-                        <div class="flex items-center justify-between mb-2">
-                            <h3 class="text-xl font-bold text-cq-gray">李子坝轻轨</h3>
-                            <span class="text-sm bg-purple-100 text-purple-800 px-2 py-1 rounded">奇观 ⭐⭐⭐⭐</span>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-3">轻轨穿楼奇观，重庆独有的城市景观，必打卡的网红景点</p>
-                        <div class="space-y-2 text-sm">
-                            <div class="flex items-center">
-                                <span class="text-purple-500">💰</span>
-                                <span class="ml-2">地铁票价</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-purple-500">🚇</span>
-                                <span class="ml-2">2号线李子坝站</span>
-                            </div>
-                            <div class="flex items-center">
-                                <span class="text-purple-500">⏰</span>
-                                <span class="ml-2">建议时长：30分钟</span>
-                            </div>
-                        </div>
-                        <div class="mt-3 p-2 bg-yellow-50 rounded text-xs">
-                            <strong>拍照：</strong>站外观景台是最佳拍摄点
-                        </div>
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">李子坝轻轨穿楼</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>轻轨2号线穿居民楼而过，魔幻8D交通代表。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>观景台仰拍列车进楼瞬间，上车体验“过山车式”轨道（较场口→李子坝段）。</k>
+                        <t class="text-gray-600 text-sm"><strong>贴士：</strong>结合“小黄楼”拍照，步行至鹅岭二厂约15分钟。</t>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/shancheng_path.jpg" alt="山城步道" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">山城步道（渝中区）</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>悬崖边蜿蜒的本地生活走廊，原汁原味老重庆。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>山城巷：废弃教堂、悬空栈道。领事巷：全程下坡省力，终点通南纪门。</k>
+                        <t class="text-gray-600 text-sm"><strong>建议：</strong>傍晚散步，沿途有坝坝茶和小型展览。</t>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/dazu.jpg" alt="大足石刻" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-cq-gray mb-2">大足石刻</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>特色：</strong>世界文化遗产，唐宋摩崖石刻巅峰之作。</p>
+                        <k class="text-gray-600 text-sm mb-2"><strong>看点：</strong>宝顶山：六道轮回图、千手观音。北山：精致唐宋造像，游客较少。</k>
+                        <t class="text-gray-600 text-sm"><strong>贴士：</strong>距市区1.5小时车程，适合单独安排1天。</t>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 美食推荐 -->
+    <!-- 美食推荐（成都+重庆） -->
     <section id="food" class="py-12 bg-gray-100">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-8 text-cq-gray">
-                <span class="border-b-4 border-cq-red pb-2">🍜 重庆特色美食指南</span>
+                <span class="border-b-4 border-cq-red pb-2">🍜 双城美食指南</span>
             </h2>
-            <div class="max-w-6xl mx-auto">
-                <div class="grid md:grid-cols-2 gap-8">
-                    <!-- 火锅专区 -->
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="h-48 overflow-hidden">
-                            <img src="images/chongqing_hotpot.jpg" alt="重庆火锅" class="w-full h-full object-cover">
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold mb-4 text-cq-red flex items-center">
-                                🔥 重庆火锅
-                                <span class="ml-3 text-sm bg-red-100 text-red-800 px-2 py-1 rounded">必试</span>
-                            </h3>
-                        <p class="text-gray-600 mb-4">重庆的灵魂美食，建议选择鸳鸯锅，一边红油一边清汤</p>
-                        <div class="space-y-4">
-                            <div class="border-l-4 border-red-500 pl-4">
-                                <h4 class="font-bold text-gray-800">佩姐老火锅</h4>
-                                <p class="text-sm text-gray-600">网红名店，味道正宗 | 人均: 80-120元</p>
-                            </div>
-                            <div class="border-l-4 border-red-500 pl-4">
-                                <h4 class="font-bold text-gray-800">周师兄火锅</h4>
-                                <p class="text-sm text-gray-600">环境较好，大刀腰片特色 | 人均: 80-120元</p>
-                            </div>
-                            <div class="border-l-4 border-red-500 pl-4">
-                                <h4 class="font-bold text-gray-800">大队长主题火锅</h4>
-                                <p class="text-sm text-gray-600">红色主题，有表演，适合亲子 | 人均: 80-120元</p>
-                            </div>
-                        </div>
-                            <div class="mt-4 p-3 bg-red-50 rounded text-sm">
-                                <strong>亲子推荐菜：</strong>嫩肉片、酥肉、南瓜饼、鲜榨玉米汁
-                            </div>
-                        </div>
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+                <!-- 成都美食
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/chengdu_hotpot.jpg" alt="成都火锅" class="w-full h-full object-cover">
                     </div>
-
-                    <!-- 特色小吃 -->
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="h-48 overflow-hidden">
-                            <img src="images/chongqing_noodles.jpg" alt="重庆小面" class="w-full h-full object-cover">
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold mb-4 text-cq-blue flex items-center">
-                                🥢 特色小吃
-                                <span class="ml-3 text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">亲子友好</span>
-                            </h3>
-                        <p class="text-gray-600 mb-4">街头巷尾的精髓美食，大人小孩都能找到喜欢的</p>
-                        <div class="space-y-4">
-                            <div class="border-l-4 border-blue-500 pl-4">
-                                <h4 class="font-bold text-gray-800">重庆小面</h4>
-                                <p class="text-sm text-gray-600">花市豌杂面（解放碑）| 可点不辣版本</p>
-                            </div>
-                            <div class="border-l-4 border-blue-500 pl-4">
-                                <h4 class="font-bold text-gray-800">抄手</h4>
-                                <p class="text-sm text-gray-600">吴抄手（解放碑老店）| 皮薄馅大</p>
-                            </div>
-                            <div class="border-l-4 border-blue-500 pl-4">
-                                <h4 class="font-bold text-gray-800">山城小汤圆</h4>
-                                <p class="text-sm text-gray-600">糯米芝麻馅，甜而不腻 | 孩子最爱</p>
-                            </div>
-                            <div class="border-l-4 border-blue-500 pl-4">
-                                <h4 class="font-bold text-gray-800">好又来酸辣粉</h4>
-                                <p class="text-sm text-gray-600">解放碑好吃街标志 | 可点原汤粉</p>
-                            </div>
-                        </div>
-                            <div class="mt-4 p-3 bg-blue-50 rounded text-sm">
-                                <strong>点餐技巧：</strong>告诉老板"不要海椒"或"微辣"
-                            </div>
-                        </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-4 text-cq-blue flex items-center">
+                            🔥 成都火锅
+                            <span class="ml-3 text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">必试</span>
+                        </h3>
+                        <p class="text-gray-600 mb-2">麻辣鲜香，鸳鸯锅适合全家。推荐：蜀九香、五里关。</p>
                     </div>
-
-                    <!-- 江湖菜 -->
-                    <div class="bg-white rounded-lg shadow-lg p-6">
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/chengdu_snacks.jpg" alt="成都小吃" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
                         <h3 class="text-2xl font-bold mb-4 text-cq-green flex items-center">
-                            🍗 江湖菜
-                            <span class="ml-3 text-sm bg-green-100 text-green-800 px-2 py-1 rounded">可调味</span>
+                            🥢 成都小吃
+                            <span class="ml-3 text-sm bg-green-100 text-green-800 px-2 py-1 rounded">亲子友好</span>
                         </h3>
-                        <p class="text-gray-600 mb-4">不拘一格的烹饪，浓厚乡土气息，可要求免辣或微辣</p>
-                        <div class="space-y-4">
-                            <div class="border-l-4 border-green-500 pl-4">
-                                <h4 class="font-bold text-gray-800">杨记隆府</h4>
-                                <p class="text-sm text-gray-600">装修特色，味道改良 | 人均: 70-100元</p>
-                            </div>
-                            <div class="border-l-4 border-green-500 pl-4">
-                                <h4 class="font-bold text-gray-800">九锅一堂</h4>
-                                <p class="text-sm text-gray-600">可喝汤的酸菜鱼，性价比高 | 人均: 70-100元</p>
-                            </div>
-                        </div>
-                        <div class="mt-4 p-3 bg-green-50 rounded text-sm">
-                            <strong>推荐菜：</strong>蒜泥白肉、双椒兔（微辣）、清淡时蔬
-                        </div>
+                        <p class="text-gray-600 mb-2">蛋烘糕、糖油果子、龙抄手、赖汤圆，街头巷尾都能找到。</p>
                     </div>
-
-                    <!-- 甜品饮品 -->
-                    <div class="bg-white rounded-lg shadow-lg p-6">
-                        <h3 class="text-2xl font-bold mb-4 text-amber-600 flex items-center">
-                            🧁 甜品饮品
-                            <span class="ml-3 text-sm bg-amber-100 text-amber-800 px-2 py-1 rounded">儿童最爱</span>
+                </div> -->
+                <!-- 重庆美食 -->
+                <!-- <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/chongqing_hotpot.jpg" alt="重庆火锅" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-4 text-cq-red flex items-center">
+                            🔥 重庆火锅
+                            <span class="ml-3 text-sm bg-red-100 text-red-800 px-2 py-1 rounded">必试</span>
                         </h3>
-                        <p class="text-gray-600 mb-4">孩子们的最爱，也是大人的解腻良方</p>
-                        <div class="space-y-4">
-                            <div class="border-l-4 border-amber-500 pl-4">
-                                <h4 class="font-bold text-gray-800">熨斗糕</h4>
-                                <p class="text-sm text-gray-600">重庆传统小点心，香甜可口</p>
-                            </div>
-                            <div class="border-l-4 border-amber-500 pl-4">
-                                <h4 class="font-bold text-gray-800">鲜榨果汁</h4>
-                                <p class="text-sm text-gray-600">各大商场都有，去腥解腻</p>
-                            </div>
-                            <div class="border-l-4 border-amber-500 pl-4">
-                                <h4 class="font-bold text-gray-800">港式茶餐厅</h4>
-                                <p class="text-sm text-gray-600">观音桥、解放碑都有，口味温和</p>
-                            </div>
-                        </div>
-                        <div class="mt-4 p-3 bg-amber-50 rounded text-sm">
-                            <strong>贴心提示：</strong>辣食后可以喝酸奶或豆浆缓解
-                        </div>
+                        <p class="text-gray-600 mb-2">仪表厂、田棒棒等老火锅，红油锅底，配菜丰富。</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 预算对比 -->
-    <section id="budget" class="py-12 bg-white print-page-break">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-8 text-cq-gray">
-                <span class="border-b-4 border-cq-red pb-2">💰 预算对比方案</span>
-            </h2>
-            <div class="max-w-6xl mx-auto">
-                <div class="bg-blue-50 p-6 rounded-lg mb-8">
-                    <h3 class="text-lg font-bold mb-3 text-blue-800">💡 预算说明</h3>
-                    <div class="grid md:grid-cols-3 gap-4 text-sm">
-                        <div class="bg-white p-3 rounded">
-                            <strong class="text-green-600">经济型：</strong>经济型酒店，公共交通为主，本地小馆和特色小吃
-                        </div>
-                        <div class="bg-white p-3 rounded">
-                            <strong class="text-blue-600">中档型：</strong>中档酒店，地铁+网约车，1-2家知名餐厅体验
-                        </div>
-                        <div class="bg-white p-3 rounded">
-                            <strong class="text-purple-600">高档型：</strong>豪华酒店，网约车/包车为主，高品质餐饮环境
-                        </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/chongqing_noodles.jpg" alt="重庆小面" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-4 text-cq-blue flex items-center">
+                            🥢 重庆小吃
+                            <span class="ml-3 text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">亲子友好</span>
+                        </h3>
+                        <p class="text-gray-600 mb-2">重庆小面、抄手、酸辣粉、山城小汤圆，辣味可调。</p>
                     </div>
                 </div>
-
-                <div class="grid md:grid-cols-3 gap-6">
-                    <!-- 经济型 -->
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="bg-green-500 text-white p-4 text-center">
-                            <h3 class="text-xl font-bold">💚 经济型</h3>
-                            <div class="text-2xl font-bold mt-2">约 4,885元</div>
-                            <div class="text-sm opacity-90">人均 ~1,221元</div>
-                        </div>
-                        <div class="p-6">
-                            <div class="space-y-3">
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">住宿 (4晚)</span>
-                                    <span class="font-bold">2,000元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">餐饮 (5天)</span>
-                                    <span class="font-bold">2,000元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">交通 (5天)</span>
-                                    <span class="font-bold">250元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">景点门票</span>
-                                    <span class="font-bold">135元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">其他购物</span>
-                                    <span class="font-bold">500元</span>
-                                </div>
-                            </div>
-                            <div class="mt-4 p-3 bg-green-50 rounded text-sm">
-                                <strong>适合：</strong>预算有限，注重性价比的家庭
-                            </div>
-                        </div>
+            </div> --> 
+            <!-- 经典美食详细推荐 -->
+            <div class="max-w-4xl mx-auto mt-12">
+                <h3 class="text-2xl font-bold text-cq-gray mb-6 text-center">成都美食6大经典</h3>
+                <div class="space-y-8">
+                    <!-- 1. 钟水饺 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-blue mb-2 flex items-center">1️⃣ 钟水饺</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>红油水饺的极致演绎，甜辣咸鲜四味平衡。</li>
+                            <li><span class="font-semibold text-cq-blue">秘诀：</span>纯肉馅（无菜），淋上复制酱油+红油+蒜泥，撒花生碎。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐店：</span>西月城谭豆花（老字号）、钟水饺（人民公园店）。</li>
+                            <li><span class="font-semibold text-cq-green">Tips：</span>搭配一碗冰醉豆花解辣，体验老成都“甜辣CP”。</li>
+                        </ul>
                     </div>
-
-                    <!-- 中档型（推荐） -->
-                    <div class="bg-white rounded-lg shadow-xl overflow-hidden transform scale-105">
-                        <div class="bg-cq-red text-white p-4 text-center relative">
-                            <div class="absolute top-2 right-2 bg-white/20 px-2 py-1 rounded text-xs">推荐</div>
-                            <h3 class="text-xl font-bold">❤️ 中档型</h3>
-                            <div class="text-2xl font-bold mt-2">约 8,235元</div>
-                            <div class="text-sm opacity-90">人均 ~2,059元</div>
-                        </div>
-                        <div class="p-6">
-                            <div class="space-y-3">
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">住宿 (4晚)</span>
-                                    <span class="font-bold">3,600元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">餐饮 (5天)</span>
-                                    <span class="font-bold">3,000元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">交通 (5天)</span>
-                                    <span class="font-bold">500元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">景点门票</span>
-                                    <span class="font-bold">135元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">其他购物</span>
-                                    <span class="font-bold">1,000元</span>
-                                </div>
-                            </div>
-                            <div class="mt-4 p-3 bg-red-50 rounded text-sm">
-                                <strong>最佳选择：</strong>舒适度与便捷性的完美平衡
-                            </div>
-                        </div>
+                    <!-- 2. 甜水面 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-blue mb-2 flex items-center">2️⃣ 甜水面</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>筷子粗的硬质面条，裹满甜酱油+辣油+芝麻酱，口感劲道。</li>
+                            <li><span class="font-semibold text-cq-blue">灵魂吃法：</span>拌匀后第一口先尝酱香，再咬碎花生粒。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐店：</span>洞子口张老二凉粉（文殊院旁）、小名堂担担甜水面。</li>
+                        </ul>
                     </div>
-
-                    <!-- 高档型 -->
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="bg-gradient-to-r from-purple-500 to-purple-600 text-white p-4 text-center">
-                            <h3 class="text-xl font-bold">💜 高档型</h3>
-                            <div class="text-2xl font-bold mt-2">约 14,135元+</div>
-                            <div class="text-sm opacity-90">人均 ~3,534元+</div>
-                        </div>
-                        <div class="p-6">
-                            <div class="space-y-3">
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">住宿 (4晚)</span>
-                                    <span class="font-bold">6,000元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">餐饮 (5天)</span>
-                                    <span class="font-bold">5,000元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">交通 (5天)</span>
-                                    <span class="font-bold">1,000元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">景点门票</span>
-                                    <span class="font-bold">135元</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">其他购物</span>
-                                    <span class="font-bold">2,000元+</span>
-                                </div>
-                            </div>
-                            <div class="mt-4 p-3 bg-purple-50 rounded text-sm">
-                                <strong>适合：</strong>追求高品质体验，预算充足的家庭
-                            </div>
-                        </div>
+                    <!-- 3. 蛋烘糕 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-blue mb-2 flex items-center">3️⃣ 蛋烘糕</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>街头mini铜锅烘烤的软皮小吃，甜咸双修！</li>
+                            <li><span class="font-semibold text-cq-blue">必选馅：</span>咸口：麻辣牛肉+萝卜干；甜口：奶油肉松/芝麻花生。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐摊：</span>贺记蛋烘糕（连锁）、工人村陆记蛋烘糕。</li>
+                            <li><span class="font-semibold text-cq-green">Tips：</span>现烤现吃，冷了口感大打折扣！</li>
+                        </ul>
+                    </div>
+                    <!-- 4. 冒椒火辣串串 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-blue mb-2 flex items-center">4️⃣ 冒椒火辣串串</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>冷锅串串的暴力美学，干碟+油碟双蘸是精髓。</li>
+                            <li><span class="font-semibold text-cq-blue">必拿菜：</span>小郡肝、兔腰、火锅粉，加一碗杠上脑花。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐店：</span>冒椒火辣（奎星楼店）、康二姐串串。</li>
+                            <li><span class="font-semibold text-cq-red">警告：</span>微辣即可，外地人慎选中辣以上！</li>
+                        </ul>
+                    </div>
+                    <!-- 5. 老妈蹄花 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-blue mb-2 flex items-center">5️⃣ 老妈蹄花</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>奶白汤底炖到脱骨的蹄花，成都夜宵“温柔乡”。</li>
+                            <li><span class="font-semibold text-cq-blue">吃法：</span>蘸红油碟配酸辣汁，配米饭绝杀。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐店：</span>廖老妈蹄花（东城根街）、丁太婆老妈蹄花。</li>
+                            <li><span class="font-semibold text-cq-green">贴士：</span>适合深夜酒后暖胃，人民公园周边是主场。</li>
+                        </ul>
+                    </div>
+                    <!-- 6. 锅巴土豆 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-blue mb-2 flex items-center">6️⃣ 锅巴土豆</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>油炸土豆外脆内糯，糖醋麻辣味是成都街头顶流。</li>
+                            <li><span class="font-semibold text-cq-blue">爆款味型：</span>糖醋+辣椒面+折耳根碎（慎选）。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐摊：</span>周签签锅巴土豆（建设路）、老蜀人锅巴土豆。</li>
+                            <li><span class="font-semibold text-cq-green">Tips：</span>趁热吃！凉了口感变“面”。</li>
+                        </ul>
                     </div>
                 </div>
-
-                <div class="mt-8 bg-yellow-50 p-6 rounded-lg">
-                    <h3 class="font-bold text-yellow-800 mb-3">⚠️ 重要提醒</h3>
-                    <ul class="text-sm text-yellow-700 space-y-1">
-                        <li>• 以上预算不包含往返重庆的大交通费用（机票、火车票）</li>
-                        <li>• 儿童门票通常有优惠或免费，此处按成人计算</li>
-                        <li>• 实际花费因季节、预订时间和个人消费习惯而异</li>
-                        <li>• 建议预留10-20%的弹性预算</li>
+                <h3 class="text-2xl font-bold text-cq-gray mb-6 mt-12 text-center">重庆美食6大经典</h3>
+                <div class="space-y-8">
+                    <!-- 1. 重庆小面 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-red mb-2 flex items-center">1️⃣ 重庆小面（豌杂面）</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>碱水面+软烂豌豆+杂酱+红油，麻辣鲜香直冲天灵盖。</li>
+                            <li><span class="font-semibold text-cq-blue">灵魂吃法：</span>快速拌匀，让每根面裹满酱汁！</li>
+                            <li><span class="font-semibold text-cq-gold">推荐店：</span>花市豌杂面、梯坎面（大溪沟店）。</li>
+                            <li><span class="font-semibold text-cq-green">暗号：</span>“提黄”（面硬）或“加青”（多加菜）。</li>
+                        </ul>
+                    </div>
+                    <!-- 2. 重庆火锅 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-red mb-2 flex items-center">2️⃣ 重庆火锅</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>牛油九宫格，毛肚鸭肠必杀技，越煮越辣！</li>
+                            <li><span class="font-semibold text-cq-blue">涮菜顺序：</span>先荤后素，毛肚“七上八下”，最后煮脑花。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐店：</span>渝大狮老火锅、黄姐老火锅、二火锅。</li>
+                            <li><span class="font-semibold text-cq-red">警告：</span>认准微辣，香油蒜泥碟是重庆人最后的温柔！</li>
+                        </ul>
+                    </div>
+                    <!-- 3. 烤苕皮 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-red mb-2 flex items-center">3️⃣ 烤苕皮</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>红薯粉做的Q弹外皮，包酸萝卜+葱花，炭火炙烤。</li>
+                            <li><span class="font-semibold text-cq-blue">神仙吃法：</span>加折耳根（考验勇气），淋辣椒面。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐摊：</span>各大夜市（观音桥、八一好吃街），何兴记苕皮。</li>
+                            <li><span class="font-semibold text-cq-green">Tips：</span>趁热吃，凉了变硬！</li>
+                        </ul>
+                    </div>
+                    <!-- 4. 山城汤圆 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-red mb-2 flex items-center">4️⃣ 山城汤圆</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>老红糖醪糟汤底，搭配手工黑芝麻汤圆，解辣神器。</li>
+                            <li><span class="font-semibold text-cq-blue">隐藏吃法：</span>加一勺猪油让汤更香滑。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐店：</span>老街糯米团、左婆婆红糖醪糟。</li>
+                            <li><span class="font-semibold text-cq-green">贴士：</span>夏天有冰汤圆版本，加山楂碎更绝。</li>
+                        </ul>
+                    </div>
+                    <!-- 5. 辣子鸡 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-red mb-2 flex items-center">5️⃣ 辣子鸡</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>辣椒堆里找鸡肉，干香酥脆，江湖菜豪放派代表。</li>
+                            <li><span class="font-semibold text-cq-blue">必吃场景：</span>配冰啤酒，宵夜大排档氛围拉满。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐店：</span>杨记隆府、马房湾66号江湖菜。</li>
+                            <li><span class="font-semibold text-cq-green">暗号：</span>打包辣椒回家炒菜，重庆人的隐藏福利。</li>
+                        </ul>
+                    </div>
+                    <!-- 6. 豆花饭 -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h4 class="text-xl font-bold text-cq-red mb-2 flex items-center">6️⃣ 豆花饭</h4>
+                        <ul class="text-gray-700 text-base space-y-1 pl-2">
+                            <li><span class="font-semibold text-cq-red">特色：</span>嫩豆花+青椒蘸水+甑子饭，市井标配快餐。</li>
+                            <li><span class="font-semibold text-cq-blue">吃法：</span>豆花捣碎拌饭，蘸水根据口味调辣度。</li>
+                            <li><span class="font-semibold text-cq-gold">推荐店：</span>过道豆花（解放碑巷子内）、九九豆花馆。</li>
+                            <li><span class="font-semibold text-cq-red">警告：</span>豆花是咸的！别以为是甜点。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-12 p-6 bg-yellow-50 rounded-lg border-l-4 border-cq-gold">
+                    <h4 class="text-lg font-bold mb-2 text-cq-gold">终极对决与Tips</h4>
+                    <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                        <li><strong>成都：</strong>甜辣交融，小吃密度高，建设路/奎星楼街可一站式打卡。</li>
+                        <li><strong>重庆：</strong>直球辣味，江湖菜分量大，建议组队分食。</li>
+                        <li><strong>避雷：</strong>两地“网红店”谨慎选择，居民区苍蝇馆子更地道！</li>
+                        <li>两城美食如同性格：成都细水长流的“巴适”，重庆烈火烹油的“霸道”，记得备好肠胃药，放心开吃！<span class="ml-2">🌶️🍜</span></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 住宿和交通建议 -->
+    <!-- 住宿和交通建议（成都+重庆） -->
     <section class="py-12 bg-gray-100">
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-2 gap-8">
-                <!-- 住宿建议 -->
+                <!-- 成都住宿建议 -->
                 <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-2xl font-bold mb-6 text-cq-gray flex items-center">
-                        🏨 住宿建议
+                    <h3 class="text-2xl font-bold mb-6 text-cq-blue flex items-center">
+                        🏨 成都住宿建议
                         <span class="ml-3 text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">家庭友好</span>
                     </h3>
-                    <div class="space-y-6">
-                        <!-- 高档推荐 -->
-                        <div class="border-l-4 border-purple-500 pl-4">
-                            <h4 class="font-bold text-purple-600">高档型 (1200+元/晚)</h4>
-                            <div class="mt-2 space-y-2 text-sm">
-                                <div>
-                                    <strong>重庆盛捷长江服务公寓</strong>
-                                    <p class="text-gray-600">两室一厅套房，配备厨房和洗衣机，儿童游乐室</p>
-                                </div>
-                                <div>
-                                    <strong>重庆解放碑威斯汀酒店</strong>
-                                    <p class="text-gray-600">50层以上高空酒店，天梦之床，室内恒温泳池</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 中档推荐 -->
+                    <div class="space-y-6 text-sm">
                         <div class="border-l-4 border-blue-500 pl-4">
-                            <h4 class="font-bold text-blue-600">中档型 (600-1200元/晚)</h4>
-                            <div class="mt-2 space-y-2 text-sm">
-                                <div>
-                                    <strong>重庆大世界凯宾斯基酒店</strong>
-                                    <p class="text-gray-600">德系品牌，部分江景房，性价比高</p>
-                                </div>
-                                <div>
-                                    <strong>观音桥亚朵S酒店</strong>
-                                    <p class="text-gray-600">人文服务，包含早餐和洗衣，地铁站楼下</p>
-                                </div>
-                            </div>
+                            <h4 class="font-bold text-blue-600">高档型（800+）</h4>
+                            <p><strong>博舍（太古里）</strong>：设计感精品，步行达春熙路，屋顶酒吧观景。
+<strong>尼依格罗（IFS）</strong>：高空江景房，直连地铁，俯瞰城市天际线。
+<strong>环球中心洲际</strong>：自带水上乐园，亲子友好，近金融城。</p>
                         </div>
-
-                        <!-- 经济推荐 -->
                         <div class="border-l-4 border-green-500 pl-4">
-                            <h4 class="font-bold text-green-600">经济型 (600元以下/晚)</h4>
-                            <div class="mt-2 space-y-2 text-sm">
-                                <div>
-                                    <strong>解放碑CitiGO欢阁酒店</strong>
-                                    <p class="text-gray-600">智能化设计，自助早餐，干净卫生</p>
-                                </div>
-                                <div>
-                                    <strong>精品民宿</strong>
-                                    <p class="text-gray-600">两室户型，空间大，需仔细甄别评价</p>
-                                </div>
-                            </div>
+                            <h4 class="font-bold text-green-600">中档型（400-800）</h4>
+                            <p><strong>亚朵（宽窄巷子）</strong>：文艺风，免费夜宵，步行5分钟到景区。
+<strong>浣花黉台（杜甫草堂旁）</strong>：古风庭院，体验太极课，文化气息浓。
+<strong>桔子水晶（春熙路）</strong>：智能设备，部分房型带投影，适合年轻人。</p>
+                        </div>
+                        <div class="border-l-4 border-amber-500 pl-4">
+                            <h4 class="font-bold text-amber-600">经济型（200内）</h4>
+                            <p><strong>如家（春熙路）</strong>：地铁口，行李寄存，性价比高。
+<strong>背包十年（文殊院）</strong>：青旅社交，组织活动，体验老城烟火。
+<strong>汉庭（天府广场）</strong>：标准化连锁，部分带阳台，交通便利。</p>
                         </div>
                     </div>
                     <div class="mt-6 p-4 bg-blue-50 rounded">
-                        <strong class="text-blue-800">推荐区域：</strong>解放碑、观音桥、南滨路
-                        <br><small class="text-blue-600">交通便利，商业配套成熟，出行方便</small>
+                        <strong class="text-blue-800">推荐区域：</strong>住春熙路/太古里（市中心）或宽窄巷子（文化区）
                     </div>
                 </div>
-
-                <!-- 交通指南 -->
+                <!-- 重庆住宿建议（保留原有） -->
                 <div class="bg-white rounded-lg shadow-lg p-6">
                     <h3 class="text-2xl font-bold mb-6 text-cq-gray flex items-center">
-                        🚇 交通指南
-                        <span class="ml-3 text-sm bg-green-100 text-green-800 px-2 py-1 rounded">便民实用</span>
+                        🏨 重庆住宿建议
+                        <span class="ml-3 text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">家庭友好</span>
                     </h3>
                     <div class="space-y-6">
-                        <!-- 轨道交通 -->
-                        <div>
-                            <h4 class="font-bold text-green-600 mb-3">轨道交通 (首选)</h4>
-                            <div class="space-y-2 text-sm">
-                                <div class="flex items-center">
-                                    <span class="text-green-500">💰</span>
-                                    <span class="ml-2">票价：2-7元，经济实惠</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <span class="text-green-500">📱</span>
-                                    <span class="ml-2">支付：重庆公共交通乘车码</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <span class="text-green-500">🚇</span>
-                                    <span class="ml-2">覆盖：主要景点都可直达</span>
-                                </div>
-                            </div>
+                        <div class="border-l-4 border-purple-500 pl-4">
+                            <h4 class="font-bold text-purple-600">高档型（800+）</h4>
+                            <p><strong>威斯汀（解放碑）</strong>：53楼悬空泳池，步行洪崖洞，夜景绝佳。
+<strong>丽晶（江北嘴）</strong>：两江交汇全景，夜床送小面，情侣首选。
+<strong>既下山（南滨路）</strong>：民国老建筑，历史感浓厚，直面长江索道。</p>
                         </div>
-
-                        <!-- 其他交通 -->
-                        <div>
-                            <h4 class="font-bold text-blue-600 mb-3">其他交通方式</h4>
-                            <div class="space-y-3">
-                                <div class="border-l-4 border-blue-300 pl-3">
-                                    <strong>出租车/网约车</strong>
-                                    <p class="text-sm text-gray-600">起步价约10元，行李多时推荐</p>
-                                </div>
-                                <div class="border-l-4 border-blue-300 pl-3">
-                                    <strong>公交车</strong>
-                                    <p class="text-sm text-gray-600">票价2元，作为地铁补充</p>
-                                </div>
-                                <div class="border-l-4 border-blue-300 pl-3">
-                                    <strong>长江索道/轮渡</strong>
-                                    <p class="text-sm text-gray-600">体验项目，单程20-30元</p>
-                                </div>
-                            </div>
+                        <div class="border-l-4 border-blue-500 pl-4">
+                            <h4 class="font-bold text-blue-600">中档型（400-800）</h4>
+                            <p><strong>桔子水晶（洪崖洞）</strong>：近戴家巷，智能江景房，免费饮品。
+<strong>来住S（观音桥）</strong>：ins风设计，夜市在楼下，拍照道具免费。
+<strong>天际江景民宿</strong>（联合国际）：60层高空，270°落地窗，夜景震撼。</p>
                         </div>
-
-                        <!-- 主要站点 -->
-                        <div>
-                            <h4 class="font-bold text-purple-600 mb-3">主要景点地铁站</h4>
-                            <div class="grid grid-cols-2 gap-2 text-xs">
-                                <div class="bg-gray-100 p-2 rounded">解放碑 → 较场口站</div>
-                                <div class="bg-gray-100 p-2 rounded">洪崖洞 → 小什字站</div>
-                                <div class="bg-gray-100 p-2 rounded">磁器口 → 磁器口站</div>
-                                <div class="bg-gray-100 p-2 rounded">动物园 → 动物园站</div>
-                                <div class="bg-gray-100 p-2 rounded">科技馆 → 江北城站</div>
-                                <div class="bg-gray-100 p-2 rounded">机场 → 3/10号线</div>
-                            </div>
-                        </div>
-
-                        <!-- 重庆地铁图 -->
-                        <div>
-                            <h4 class="font-bold text-indigo-600 mb-3">重庆轨道交通图</h4>
-                            <div class="bg-gray-50 p-4 rounded-lg">
-                                <img src="images/chongqing_metro_map.png" alt="重庆地铁线路图" class="w-full h-auto rounded shadow-md">
-                                <p class="text-xs text-gray-600 mt-2 text-center">重庆轨道交通网络图（点击可放大查看）</p>
-                            </div>
+                        <div class="border-l-4 border-green-500 pl-4">
+                            <h4 class="font-bold text-green-600">经济型（200内）</h4>
+                            <p><strong>7天（解放碑）</strong>：近八一好吃街，学生党首选，部分房型翻新。
+<strong>背包客栈（山城巷）</strong>：青旅床位，露台江景，老重庆徒步体验。
+<strong>汉庭（朝天门）</strong>：近码头，免费接送洪崖洞，部分江景房。</p>
                         </div>
                     </div>
-                    <div class="mt-6 p-4 bg-yellow-50 rounded">
-                        <strong class="text-yellow-800">亲子提示：</strong>
-                        <br><small class="text-yellow-700">重庆地势起伏，地铁站内步行距离较长，需考虑孩子体力</small>
+                    <div class="mt-6 p-4 bg-blue-50 rounded">
+                        <strong class="text-blue-800">推荐区域：</strong>解放碑/洪崖洞（景点集中）或南滨路（夜景无敌）
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- 交通指南（成都+重庆） -->
+    <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-cq-gray">
+            <span class="border-b-4 border-cq-red pb-2">🚄 交通指南</span>
+        </h2>
+        <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
+            <div class="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-lg">
+                <h3 class="font-bold text-blue-800 mb-3">成都交通</h3>
+                <ul class="text-sm space-y-2 text-blue-700">
+                    <li>• 地铁覆盖主要景点，推荐乘坐地铁+打车组合</li>
+                    <li>• 前往都江堰/青城山可乘高铁或动车</li>
+                    <li>• 市区步行友好，注意高峰期交通拥堵</li>
+                </ul>
+                <div class="h-48 overflow-hidden">
+                        <img src="images/chengdu_metro_map.png" alt="成都火锅" class="w-full h-full object-cover">
+                    </div>
+            </div>
+            <div class="bg-gradient-to-r from-green-50 to-green-100 p-6 rounded-lg">
+                <h3 class="font-bold text-green-800 mb-3">重庆交通</h3>
+                <ul class="text-sm space-y-2 text-green-700">
+                    <li>• 地铁直达主要景点，推荐购买重庆地铁一日游卡</li>
+                    <li>• 轻轨、索道是游览城市的特色交通工具</li>
+                    <li>• 打车时注意选择正规出租车，避免高峰期</li>
+                </ul>
+                <div class="h-48 overflow-hidden">
+                        <img src="images/chongqing_metro_map.png" alt="成都火锅" class="w-full h-full object-cover">
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- 实用小贴士 -->
     <section class="py-12 bg-white">
@@ -937,39 +655,39 @@
             </h2>
             <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
                 <div class="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-lg">
-                    <h3 class="font-bold text-blue-800 mb-3">📱 出行准备</h3>
+                    <h3 class="font-bold text-blue-800 mb-3">🚅 交通避坑</h3>
                     <ul class="text-sm space-y-2 text-blue-700">
-                        <li>• 下载"重庆地铁"APP或"重庆公交"APP</li>
-                        <li>• 提前预约重庆科技馆（官方公众号）</li>
-                        <li>• 长江索道建议线上购票避免排队</li>
-                        <li>• 准备防晒用品和舒适的步行鞋</li>
+                        <li>• 重庆：导航失灵时问本地人，打车定位务必说清楼层（如“洪崖洞1楼”）</li>
+                        <li>• 成都：市区首选地铁+共享单车，去都江堰坐城际高铁</li>
+                        <li>• 通用：穿舒适运动鞋！重庆爬坡费腿，成都景区需暴走</li>
+                        <li>• 雷点：重庆黄色法拉利（出租车）慎拦，高峰时段堵到怀疑人生</li>
                     </ul>
                 </div>
                 <div class="bg-gradient-to-r from-green-50 to-green-100 p-6 rounded-lg">
-                    <h3 class="font-bold text-green-800 mb-3">👶 亲子注意</h3>
+                    <h3 class="font-bold text-green-800 mb-3">👶 景点取舍</h3>
                     <ul class="text-sm space-y-2 text-green-700">
-                        <li>• 带好儿童防晒用品和常用药品</li>
-                        <li>• 重庆多山路，推车选择轻便型</li>
-                        <li>• 辣食后可饮酸奶或豆浆缓解</li>
-                        <li>• 保持孩子充足的休息时间</li>
+                        <li>• 必去：成都熊猫基地7:30冲花花，重庆洪崖洞夜景去千厮门大桥拍</li>
+                        <li>• 避雷：南山一棵树阴天别去，宽窄巷子只逛不买</li>
+                        <li>• 隐藏玩法：重庆白象居看魔幻居民楼，成都彭镇老茶馆喝盖碗茶</li>
+                        <li>• 票务：都江堰用电子讲解器，长江索道买单程（南→北站人少）</li>
                     </ul>
                 </div>
                 <div class="bg-gradient-to-r from-red-50 to-red-100 p-6 rounded-lg">
-                    <h3 class="font-bold text-red-800 mb-3">🍽️ 用餐建议</h3>
+                    <h3 class="font-bold text-red-800 mb-3">🍽️ 吃货秘籍</h3>
                     <ul class="text-sm space-y-2 text-red-700">
-                        <li>• 火锅必选鸳鸯锅，照顾全家口味</li>
-                        <li>• 点餐时主动要求"不要海椒"或"微辣"</li>
-                        <li>• 准备一些孩子熟悉的小零食</li>
-                        <li>• 餐厅高峰期建议提前排号</li>
+                        <li>• 辣度：火锅点“微微辣”，小面/烤鱼优先选居民楼下摊</li>
+                        <li>• 别在景区吃：兔头去成都新华公园，重庆烤鱼找沙坪坝老店</li>
+                        <li>• 省预算：八一好吃街/奎星楼街尝小吃，大餐选连锁品牌店</li>
+                        <li>• 避坑：成都采耳谨慎选，重庆特产别在磁器口买（网购更便宜）</li>
                     </ul>
                 </div>
                 <div class="bg-gradient-to-r from-purple-50 to-purple-100 p-6 rounded-lg">
-                    <h3 class="font-bold text-purple-800 mb-3">📸 拍照攻略</h3>
+                    <h3 class="font-bold text-purple-800 mb-3">📸 文化体验</h3>
                     <ul class="text-sm space-y-2 text-purple-700">
-                        <li>• 洪崖洞最佳拍摄点在千厮门大桥</li>
-                        <li>• 李子坝轻轨在站外观景台拍摄</li>
-                        <li>• 长江索道建议拍摄过程而非终点</li>
-                        <li>• 夜景拍摄时间：18:00-22:00最佳</li>
+                        <li>• 烟火气：重庆山城巷吃油茶，成都玉林路听街头民谣</li>
+                        <li>• 老建筑：重庆湖广会馆看戏，成都杜甫草堂读诗</li>
+                        <li>• 方言梗：学一句“巴适得板”（舒服）和“不存在”（别客气）</li>
+                        <li>• 防坑：文殊院门口别和算命大妈搭话，景点变脸秀别买高价票</li>
                     </ul>
                 </div>
             </div>
@@ -980,11 +698,11 @@
     <footer class="gradient-bg text-white py-8">
         <div class="container mx-auto px-4 text-center">
             <div class="mb-4">
-                <h3 class="text-2xl font-bold mb-2">重庆家庭旅行攻略</h3>
+                <h3 class="text-2xl font-bold mb-2">成都&重庆双城家庭旅行攻略</h3>
                 <p class="text-sm opacity-90">让每一个家庭都能轻松享受山城之美</p>
             </div>
             <div class="flex flex-wrap justify-center gap-4 text-sm mb-4">
-                <span>🌟 5天4晚最佳体验</span>
+                <span>🌟 7天6晚最佳体验</span>
                 <span>👨‍👩‍👧‍👦 三大一小专属</span>
                 <span>💝 性价比之选</span>
                 <span>🎯 精选景点</span>
@@ -997,12 +715,12 @@
 
     <!-- 浮动操作按钮 -->
     <div class="floating-action no-print">
-        <button id="scrollToTop" class="bg-cq-red text-white p-3 rounded-full shadow-lg hover:bg-red-700 transition mb-3 hidden" title="Scroll to top" aria-label="Scroll to top of page">
+        <button id="scrollToTop" class="bg-cq-red text-white p-3 rounded-full shadow-lg hover:bg-red-700 transition mb-3 hidden" type="button" title="Scroll to top" aria-label="Scroll to top of page">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
             </svg>
         </button>
-        <button id="printBtn" class="bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition" title="Print this page" aria-label="Print this travel guide">
+        <button id="printBtn" class="bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition" type="button" title="Print this page" aria-label="Print this travel guide">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path>
             </svg>
@@ -1075,7 +793,7 @@
 <div id="minimax-floating-ball">
   <div class="minimax-ball-content">
     <div class="minimax-logo-wave"></div>
-    <span class="minimax-ball-text">Created by MiniMax Agent</span>
+    <span class="minimax-ball-text">Created by Us</span>
   </div>
   <div class="minimax-close-icon">×</div>
 </div>
@@ -1098,7 +816,7 @@ function initFloatingBall() {
   const ballContent = ball.querySelector('.minimax-ball-content');
   ballContent.addEventListener('click', function (e) {
     e.stopPropagation();
-    // window.open('https://agent.minimax.io/agent', '_blank');
+    // window.open(', '_blank');
     ball.style.transform = 'scale(0.95)';
     setTimeout(() => {
       ball.style.transform = 'scale(1)';
