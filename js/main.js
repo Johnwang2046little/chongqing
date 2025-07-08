@@ -32,11 +32,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // 打印功能
+    // const printBtn = document.getElementById('printBtn');
+    
+    // if (printBtn) {
+    //     printBtn.addEventListener('click', function() {
+    //         window.print();
+    //     });
+    // }
+
     const printBtn = document.getElementById('printBtn');
     
     if (printBtn) {
         printBtn.addEventListener('click', function() {
-            window.print();
+            window.open('images/规划行程表.pdf', '_blank');
         });
     }
 
